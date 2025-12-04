@@ -1,0 +1,74 @@
+# -------------------------------------------------------------------
+# SECURITY: ENVIRONMENT FILES AND SECRETS
+# Crucial for preventing API key leaks (like the OpenAI key).
+# Store secrets in .env files and never commit them.
+# -------------------------------------------------------------------
+.env
+.env.local
+.env.development
+.env.production
+.flaskenv
+secrets.json
+config.json
+*.pem
+*.key
+
+# -------------------------------------------------------------------
+# DEPENDENCIES (Node.js/npm/Yarn)
+# Never commit your node_modules folder.
+# -------------------------------------------------------------------
+node_modules
+# Ignore all node_modules directories, useful for monorepos or nested apps
+*/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# -------------------------------------------------------------------
+# BUILD ARTIFACTS
+# Files created when compiling/building your frontend and backend
+# -------------------------------------------------------------------
+
+# Express/Node build output
+/dist
+/build
+/out
+
+# React/Frontend build output (common names used by Vite, CRA, Next.js)
+/public/build
+/dist-server
+/dist-serverless
+.parcel-cache
+
+# Cypress/Testing
+/cypress/videos
+/cypress/screenshots
+
+# -------------------------------------------------------------------
+# OS & SYSTEM FILES
+# -------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------------------------------------------------------
+# IDE & EDITOR FILES
+# -------------------------------------------------------------------
+# Visual Studio Code (VS Code)
+.vscode/
+
+# JetBrains IDEs (e.g., WebStorm, IntelliJ)
+.idea/
+
+# Custom files for your specific project (if any):
+# Example for a specific database file:
+# db.sqlite
