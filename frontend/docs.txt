@@ -1,0 +1,3 @@
+1-  I am using Tailwind css and Material UI for UI desing
+2- for api i am creating new file name is Api, where i am handling backend api with axios Instance.
+3- installing dependency like axios and react-router-dom, redux, 
