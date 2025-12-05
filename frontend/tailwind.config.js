@@ -20,8 +20,9 @@ export default {
           900: '#1e3a8a',
         },
       },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+      animation: {
+        'pulse': 'pulse 1.5s ease-in-out infinite',
+        'bounce': 'bounce 2s infinite',
       },
     },
   },
